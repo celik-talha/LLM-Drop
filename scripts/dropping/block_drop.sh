@@ -12,7 +12,7 @@ block_drop_method="discrete"
 drop_n=8
 
 model_name=llama1b
-model_name_or_path=TinyLlama/TinyLlama-1.1B-Chat-v1.0
+model_name_or_path=unsloth/Llama-3.2-1B
 
 folder_name="${model_name}-${prune_method}-${block_drop_method}-drop${drop_n}"
 similarity_cache_file="../results_prune/cache/${model_name}-${prune_method}-${dataset}-${n_calibration_samples}samples.pt"
